@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1023px) 
+ {
+    .nav-list
+        {
+            flex-direction: row; 
+        }
+
+    .nav-list li
+        {
+            list-style: none;
+            padding: 0px 4px;
+        }    
+    
+    .nav-list li a 
+        {
+            text-decoration: none;
+            color: white;
+            font-size: 10px;
+            font-family: 'Meow Script', cursive;
+        }
+
+
+    .navbar
+        {
+            flex-direction: column; 
+            transition: all 0.7s ease-out;
+            height:45px;
+        }
+    .rightNav
+        {
+            text-align: center;
+            display: none;
+        }
+    .box-main
+        {
+            flex-direction: column-reverse;
+            max-width: 100%;
+            max-height: 35%;
+        }
+    #search
+        {
+            width:100%;
+        }
+
+    .burger
+        {
+            display: block;
+        }
+    .h-nav-resp
+        {
+            height: 72px;
+        }
+    .v-class-resp
+        {
+            opacity:0;
+        }    
+    .section
+        {
+            flex-direction: column-reverse;
+        }
+    .text-small
+        {
+            text-align: center;
+            color: black;
+            font: size 10px; ;
+
+        }
+    .text-big
+        {
+            text-align: center;
+            font-size: 30px;
+        }
+    .buttons
+        {
+            text-align: center;
+        }
+    .firstSection 
+        {
+            height: 251vh;
+        }
+}
+
